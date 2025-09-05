@@ -1,0 +1,33 @@
+/* variables.css: CSS Custom Properties for Weather App */
+
+:root {
+    --primary-color: #012f4e;
+    --secondary-color: #8685ca;
+    --accent-color: #e67e22;
+    --background-color: #1a1a1a;
+    --text-color: #ffffff;
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+    --font-family: "Titillium Web", sans-serif;
+    --font-family-des: "Titillium Web", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    background: var(--background-color);
+}
+
+.mode {
+    --secondary-color: #ff6200;
+    --primary-color: #ffffff;
+    --background-color: #e4f4fe;
+    --text-color: #000000;
+    --border-radius: 8px;
+    --transition-speed: 0.3s;
+    --font-family: "Titillium Web", sans-serif;
+}
